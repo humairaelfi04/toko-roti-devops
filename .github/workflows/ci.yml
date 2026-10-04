@@ -1,0 +1,16 @@
+name: Robot Pabrik (CI/CD)
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Mengambil Resep dari Brankas (Checkout)
+        uses: actions/checkout@v3
+
+      - name: 2. Membungkus Roti ke dalam Kotak (Docker Build)
+        run: docker build -t tokoroti:1.0 .
