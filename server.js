@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
             <li>1. Roti Tawar (Asli Resep Programmer)</li>
             <li>2. Croissant (Berlapis-lapis macam Docker)</li>
             <li>3. Baguette (Panjang seperti Pipeline Jenkins)</li>
+            <li>4. Donat (Bolong di tengah kayak Bug!)</li>
           </ul>
         </div>
         <p><i>Website ini dibuat untuk Mini Project DevOps!</i></p>
