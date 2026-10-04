@@ -1,0 +1,12 @@
+{
+  "name": "toko-roti-devops",
+  "version": "1.0.0",
+  "description": "Mini project DevOps - Toko Roti",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
